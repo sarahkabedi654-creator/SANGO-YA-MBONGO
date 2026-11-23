@@ -1,0 +1,7 @@
+project_id = "sango-ya-mbongo"
+
+[functions.collect-news]
+verify_jwt = false
+
+[functions.collect-world-bank]
+verify_jwt = false

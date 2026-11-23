@@ -1,0 +1,22 @@
+{
+  "name": "sango-ya-mbongo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plateforme de veille sur le mobile money et les paiements numériques en RDC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "diagnose": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/diagnose.ps1",
+    "test": "node --test"
+  },
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "chart.js": "^4.6.1"
+  },
+  "devDependencies": {
+    "supabase": "^3.2.0",
+    "vite": "^8.3.8"
+  }
+}
